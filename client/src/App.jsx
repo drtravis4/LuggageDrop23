@@ -13,11 +13,13 @@ function App() {
           />
           <span className="font-bold text-xl">Luggage Drop</span>
         </a>
-        <div className="flex">
+        <div className="gap-2 flex border border-gray-300 rounded-full py-2 px-4 shadow-md shadow-300">
           <div>Location</div>
+          <div className="border-l border-gray-300"></div>
           <div>Day</div>
+          <div className="border-l border-gray-300"></div>
           <div>Items</div>
-          <button>
+          <button className="bg-primary text-white rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
